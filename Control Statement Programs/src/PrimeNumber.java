@@ -14,7 +14,7 @@ public class PrimeNumber {
 		
 		for(int i = 2; i <= num-1; i++) {
 			if(num % i == 0) {
-				temp = temp + 1;
+				temp = temp + 1; // logic to get out of the loop othewise it will keep printing the same message.
 			}
 		}
 		if(temp > 0) {
