@@ -8,7 +8,7 @@ public class PrimeNum100 {
 		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter the any number to print primes before it = ");
+		System.out.println("Enter any number to print primes before it = ");
 		int num = input.nextInt();
 		int i,j = 0; // static variables
 		
