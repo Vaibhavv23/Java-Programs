@@ -19,3 +19,17 @@ public class StarPattern1 {
 		}
 	}
 }
+
+// Output>>>
+
+/*
+Enter any number below 10 = 
+5
+## Star Pattern loading... ##
+
+ * 
+ *  * 
+ *  *  * 
+ *  *  *  * 
+ *  *  *  *  * 
+*/
