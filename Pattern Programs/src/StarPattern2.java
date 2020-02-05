@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StarPattern1 {
+public class StarPattern2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,8 +11,9 @@ public class StarPattern1 {
 		System.out.println("## Star Pattern loading... ##");
 		System.out.println();
 		
+
 		for(int i = 1; i <= num; i++) {  
-			for(int j = 1; j <= i; j++) {
+			for(int j = num; j >= i; j--) {
 				System.out.print(" * ");
 			}
 			System.out.println();
@@ -23,13 +24,16 @@ public class StarPattern1 {
 // Output>>>
 
 /*
+
 Enter any number below 10 = 
 5
 ## Star Pattern loading... ##
 
- * 
- *  * 
- *  *  * 
- *  *  *  * 
- *  *  *  *  * 
+*  *  *  *  * 
+*  *  *  * 
+*  *  * 
+*  * 
+*  
+  
 */
+	
